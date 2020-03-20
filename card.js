@@ -1176,7 +1176,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"//raw.githubusercontent.com/takeuchi-inagora/animate/master/cardgame01/images/index_atlas_.png?1574312355299", id:"index_atlas_"}
+		{src:"image/index_atlas_.png", id:"index_atlas_"}
 	],
 	preloads: []
 };
