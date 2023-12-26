@@ -113,19 +113,19 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 				_this.game_step.text = game_step;
 				
 				//画像読み込み
-				 card_01 = new createjs.Bitmap("image/card_ura.png");
-				 card_02 = new createjs.Bitmap("image/card_ura.png");
-				 card_03 = new createjs.Bitmap("image/card_ura.png");
-				 card_04 = new createjs.Bitmap("image/card_ura.png");
-				 card_05 = new createjs.Bitmap("image/card_ura.png");
-				 card_06 = new createjs.Bitmap("image/card_ura.png");
+				 card_01 = new createjs.Bitmap("https://tomoka.github.io/X-mas-Cards/image/card_ura.png");
+				 card_02 = new createjs.Bitmap("https://tomoka.github.io/X-mas-Cards/image/card_ura.png");
+				 card_03 = new createjs.Bitmap("https://tomoka.github.io/X-mas-Cards/image/card_ura.png");
+				 card_04 = new createjs.Bitmap("https://tomoka.github.io/X-mas-Cards/image/card_ura.png");
+				 card_05 = new createjs.Bitmap("https://tomoka.github.io/X-mas-Cards/image/card_ura.png");
+				 card_06 = new createjs.Bitmap("https://tomoka.github.io/X-mas-Cards/image/card_ura.png");
 				
-				 card_11 = new createjs.Bitmap("image/card_ura.png");
-				 card_12 = new createjs.Bitmap("image/card_ura.png");
-				 card_13 = new createjs.Bitmap("image/card_ura.png");
-				 card_14 = new createjs.Bitmap("image/card_ura.png");
-				 card_15 = new createjs.Bitmap("image/card_ura.png");
-				 card_16 = new createjs.Bitmap("image/card_ura.png");
+				 card_11 = new createjs.Bitmap("https://tomoka.github.io/X-mas-Cards/image/card_ura.png");
+				 card_12 = new createjs.Bitmap("https://tomoka.github.io/X-mas-Cards/image/card_ura.png");
+				 card_13 = new createjs.Bitmap("https://tomoka.github.io/X-mas-Cards/image/card_ura.png");
+				 card_14 = new createjs.Bitmap("https://tomoka.github.io/X-mas-Cards/image/card_ura.png");
+				 card_15 = new createjs.Bitmap("https://tomoka.github.io/X-mas-Cards/image/card_ura.png");
+				 card_16 = new createjs.Bitmap("https://tomoka.github.io/X-mas-Cards/image/card_ura.png");
 				
 				 stage.addChild(card_01);
 				 stage.addChild(card_02);
@@ -301,10 +301,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 						 card_01.width = 150;
 						
 						if(card_01_status[0]){
-							 card_01.image.src = 'image/card_01.png';
+							 card_01.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_01.png';
 							 card_01_status[0] = false;
 							}else{
-							 card_01.image.src = 'image/card_ura.png';
+							 card_01.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 							 card_01_status[0] = true;
 							}
 		
@@ -317,10 +317,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 					
 					if(!card_01_status[0]){
 							//Tween complete
-							card_01.image.src = 'image/card_ura.png';
+							card_01.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 						}else{
 							//Tween complete
-							card_01.image.src = 'image/card_01.png';
+							card_01.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_01.png';
 						}
 						
 					//カード集計へ
@@ -366,10 +366,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 						 card_02.width = 150;
 						
 						if(card_02_status[0]){
-							 card_02.image.src = 'image/card_02.png';
+							 card_02.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_02.png';
 							 card_02_status[0] = false;
 							}else{
-							 card_02.image.src = 'image/card_ura.png';
+							 card_02.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 							 card_02_status[0] = true;
 							}
 		
@@ -382,10 +382,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 					
 					if(!card_02_status[0]){
 							//Tween complete
-							card_02.image.src = 'image/card_ura.png';
+							card_02.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 						}else{
 							//Tween complete
-							card_02.image.src = 'image/card_02.png';
+							card_02.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_02.png';
 						}
 						
 					//カード集計へ
@@ -439,10 +439,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 					
 					if(!card_03_status[0]){
 							//Tween complete
-							card_03.image.src = 'image/card_ura.png';
+							card_03.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 						}else{
 							//Tween complete
-							card_03.image.src = 'image/card_03.png';
+							card_03.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_03.png';
 						}
 						
 					//カード集計へ
@@ -480,10 +480,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 						 card_04.width = 150;
 						
 						if(card_04_status[0]){
-							 card_04.image.src = 'image/card_04.png';
+							 card_04.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_04.png';
 							 card_04_status[0] = false;
 							}else{
-							 card_04.image.src = 'image/card_ura.png';
+							 card_04.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 							 card_04_status[0] = true;
 							}
 		
@@ -495,10 +495,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 					console.log("handleComplete_card_04");
 					if(!card_04_status[0]){
 							//Tween complete
-							card_04.image.src = 'image/card_ura.png';
+							card_04.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 						}else{
 							//Tween complete
-							card_04.image.src = 'image/card_04.png';
+							card_04.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_04.png';
 						}
 						
 					//カード集計へ
@@ -536,10 +536,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 						 card_05.width = 150;
 						
 						if(card_05_status[0]){
-							 card_05.image.src = 'image/card_05.png';
+							 card_05.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_05.png';
 							 card_05_status[0] = false;
 							}else{
-							 card_05.image.src = 'image/card_ura.png';
+							 card_05.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 							 card_05_status[0] = true;
 							}
 		
@@ -552,10 +552,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 					
 					if(!card_05_status[0]){
 							//Tween complete
-							card_05.image.src = 'image/card_ura.png';
+							card_05.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 						}else{
 							//Tween complete
-							card_05.image.src = 'image/card_05.png';
+							card_05.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_05.png';
 						}
 						
 					//カード集計へ
@@ -593,10 +593,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 						 card_06.width = 150;
 						
 						if(card_06_status[0]){
-							 card_06.image.src = 'image/card_06.png';
+							 card_06.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_06.png';
 							 card_06_status[0] = false;
 							}else{
-							 card_06.image.src = 'image/card_ura.png';
+							 card_06.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 							 card_06_status[0] = true;
 							}
 		
@@ -609,10 +609,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 					
 					if(!card_06_status[0]){
 							//Tween complete
-							card_06.image.src = 'image/card_ura.png';
+							card_06.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 						}else{
 							//Tween complete
-							card_06.image.src = 'image/card_06.png';
+							card_06.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_06.png';
 						}
 						
 					//カード集計へ
@@ -650,10 +650,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 						 card_11.width = 150;
 						
 						if(card_11_status[0]){
-							 card_11.image.src = 'image/card_01.png';
+							 card_11.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_01.png';
 							 card_11_status[0] = false;
 							}else{
-							 card_11.image.src = 'image/card_ura.png';
+							 card_11.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 							 card_11_status[0] = true;
 							}
 							
@@ -666,10 +666,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 					
 					if(!card_11_status[0]){
 							//Tween complete
-							card_11.image.src = 'image/card_ura.png';
+							card_11.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 						}else{
 							//Tween complete
-							card_11.image.src = 'image/card_01.png';
+							card_11.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_01.png';
 						}
 						
 					//カード集計へ
@@ -707,10 +707,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 						 card_12.width = 150;
 						
 						if(card_12_status[0]){
-							 card_12.image.src = 'image/card_02.png';
+							 card_12.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_02.png';
 							 card_12_status[0] = false;
 							}else{
-							 card_12.image.src = 'image/card_ura.png';
+							 card_12.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 							 card_12_status[0] = true;
 							}
 							
@@ -723,10 +723,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 					
 					if(!card_12_status[0]){
 							//Tween complete
-							card_12.image.src = 'image/card_ura.png';
+							card_12.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 						}else{
 							//Tween complete
-							card_12.image.src = 'image/card_02.png';
+							card_12.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_02.png';
 						}
 						
 					//カード集計へ
@@ -764,10 +764,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 						 card_13.width = 150;
 						
 						if(card_13_status[0]){
-							 card_13.image.src = 'image/card_03.png';
+							 card_13.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_03.png';
 							 card_13_status[0] = false;
 							}else{
-							 card_13.image.src = 'image/card_ura.png';
+							 card_13.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 							 card_13_status[0] = true;
 							}
 							
@@ -780,10 +780,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 					
 					if(!card_13_status[0]){
 							//Tween complete
-							card_13.image.src = 'image/card_ura.png';
+							card_13.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 						}else{
 							//Tween complete
-							card_13.image.src = 'image/card_03.png';
+							card_13.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_03.png';
 						}
 						
 					//カード集計へ
@@ -821,10 +821,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 						 card_14.width = 150;
 						
 						if(card_14_status[0]){
-							 card_14.image.src = 'image/card_04.png';
+							 card_14.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_04.png';
 							 card_14_status[0] = false;
 							}else{
-							 card_14.image.src = 'image/card_ura.png';
+							 card_14.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 							 card_14_status[0] = true;
 							}
 							
@@ -837,10 +837,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 					
 					if(!card_14_status[0]){
 							//Tween complete
-							card_14.image.src = 'image/card_ura.png';
+							card_14.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 						}else{
 							//Tween complete
-							card_14.image.src = 'image/card_04.png';
+							card_14.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_04.png';
 						}
 		
 					//カード集計へ
@@ -878,10 +878,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 						 card_15.width = 150;
 						
 						if(card_15_status[0]){
-							 card_15.image.src = 'image/card_05.png';
+							 card_15.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_05.png';
 							 card_15_status[0] = false;
 							}else{
-							 card_15.image.src = 'image/card_ura.png';
+							 card_15.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 							 card_15_status[0] = true;
 							}
 							
@@ -894,10 +894,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 					
 					if(!card_15_status[0]){
 							//Tween complete
-							card_15.image.src = 'image/card_ura.png';
+							card_15.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 						}else{
 							//Tween complete
-							card_15.image.src = 'image/card_05.png';
+							card_15.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_05.png';
 						}
 		
 					//カード集計へ
@@ -935,10 +935,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 						 card_16.width = 150;
 						
 						if(card_16_status[0]){
-							 card_16.image.src = 'image/card_06.png';
+							 card_16.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_06.png';
 							 card_16_status[0] = false;
 							}else{
-							 card_16.image.src = 'image/card_ura.png';
+							 card_16.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 							 card_16_status[0] = true;
 							}
 							
@@ -951,10 +951,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 					
 					if(!card_16_status[0]){
 							//Tween complete
-							card_16.image.src = 'image/card_ura.png';
+							card_16.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_ura.png';
 						}else{
 							//Tween complete
-							card_16.image.src = 'image/card_06.png';
+							card_16.image.src = 'https://tomoka.github.io/X-mas-Cards/image/card_06.png';
 						}
 			
 					//カード集計へ
@@ -1176,7 +1176,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"image/index_atlas_.png", id:"index_atlas_"}
+		{src:"https://tomoka.github.io/X-mas-Cards/image/index_atlas_.png", id:"index_atlas_"}
 	],
 	preloads: []
 };
